@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "dbqcreator",
+	"version": "${version}",
+	"name": "DBQ Creator",
+	"description": "Minecraft,but DBQ2 :)",
+	"authors": [
+		"qwe88788!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/dbqcreator/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.qwe88788.dbqcreator.DBQCreator"
+		],
+		"client": [
+			"com.qwe88788.dbqcreator.DBQCreatorClient"
+		],
+		"fabric-datagen": [
+			"com.qwe88788.dbqcreator.DBQCreatorDataGenerator"
+		]
+	},
+	"mixins": [
+		"dbqcreator.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
