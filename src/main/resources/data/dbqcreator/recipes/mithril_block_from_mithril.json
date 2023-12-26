@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "mithril",
+  "key": {
+    "#": {
+      "item": "dbqcreator:mithril"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "dbqcreator:mithril_block"
+  }
+}

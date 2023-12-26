@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "mithril",
+  "ingredients": [
+    {
+      "item": "dbqcreator:mithril_block"
+    }
+  ],
+  "result": {
+    "item": "dbqcreator:mithril",
+    "count": 9
+  }
+}
