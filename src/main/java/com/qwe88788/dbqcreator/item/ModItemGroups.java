@@ -21,7 +21,6 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.RAW_MITHRIL)).entries((displayContext, entries) -> {
                         entries.add(ModItems.MITHRIL);
                         entries.add(ModItems.RAW_MITHRIL);
-                        entries.add(ModItems.CAGE_ITEM);
 
                         entries.add(ModBlocks.MITHRIL_BLOCK);
                         entries.add(ModBlocks.MITHRIL_ORE );

@@ -20,14 +20,6 @@ public class ModItems {
      */
     public static final Item MITHRIL = registerItem("mithril",new Item(new FabricItemSettings()));
     public static final Item RAW_MITHRIL = registerItem("raw_mithril",new Item(new FabricItemSettings()));
-    public static final Item CAGE_ITEM = registerItem("cage_item",new Item(new FabricItemSettings()));
-    /**
-     * 将秘银和粗秘银添加到选项卡
-     */
-    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(MITHRIL);
-        entries.add(RAW_MITHRIL);
-    }
 
     /**
      * 注册物品
@@ -41,7 +33,7 @@ public class ModItems {
      */
     public static void registerModItems() {
         DBQCreator.LOGGER.info("Registering Mod Items for " + DBQCreator.MOD_ID);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
+        //ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     }
 
 }
